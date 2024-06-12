@@ -51,6 +51,7 @@ while True:
     
     elif opc==3:
         print("imprimir planilla de sueldos")
+        #como se hace esta wea ayuda
         with open('planilla_sueldos.txt','w') as archivo:
             archivo.write(nombre_apellido )
             archivo.write(cargo )
